@@ -1,0 +1,297 @@
+html {
+  font-size: 100%; /* font-size 1em = 10px */
+}
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+p,
+h1,
+h5 {
+  margin: 2px;
+}
+h4 {
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+.container {
+  display: flex;
+  border-radius: 12px;
+  background-color: rgb(249, 248, 248);
+  /* min-width - https://developer.mozilla.org/en-US/docs/Web/CSS/min-width */
+  min-width: 300px;
+  /* ce width va lua containerul? */
+  width: 100%;
+  justify-content: center;
+
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/overflow */
+  overflow: hidden;
+}
+.page {
+  width: 700px;
+}
+.header-container {
+  display: flex;
+}
+.header-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+h1,
+h3,
+h4 {
+  display: flex;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contact-click:hover{
+   transform: scale(1.05);
+   margin-left: 3px;
+}
+input:active {
+  border: none;
+}
+input {
+  height: 20px;
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid #cdcecf;
+}
+input:focus {
+  outline: none;
+}
+button{
+  cursor:pointer;
+  margin-left: 3px;
+}
+button:hover{
+  transform: scale(1.02);
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  /* width: 200px; */
+  justify-content: space-between;
+  justify-content: flex-start;
+  border-top: 1px solid rgb(225, 222, 222);
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 350px;
+  margin-bottom: 30px;
+}
+.end {
+  align-items: flex-end;
+}
+.start {
+  align-items: flex-start;
+}
+.portfolio-main {
+  display: flex;
+  border-top: 1px solid rgb(225, 222, 222);
+  flex-direction: row;
+}
+.portfolio {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.bottom {
+  padding-top: 40px;
+}
+.portfolio-text-image {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+}
+.portfolio-ti {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-left: 5px;
+}
+.portfolio-ti,
+img {
+  border-radius: 10px;
+}
+.head-portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.portfolio-text-image-2 {
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.portfolio-background {
+  display: flex;
+  background-color: rgb(249, 248, 248);
+}
+.portfolio-ti-2 {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.right {
+  margin-right: 15px;
+}
+.top {
+  margin-top: 15px;
+}
+.portfolio-text-image-3 {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.portfolio-ti-3 {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+span {
+  margin-bottom: 10px;
+}
+.page-contact {
+  width: 600px;
+  height: 100vh;
+}
+.sm-title {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.contact-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.contact-form {
+  display: flex;
+  border: 1px solid white;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.contact {
+  width: 280px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+textarea {
+  width: 500px;
+  height: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #cdcecf;
+  height: 25px;
+}
+button {
+  border: none;
+  background: white;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 400px;
+}
+.social-media-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-background {
+  display: flex;
+  background-color: rgb(249, 248, 248);
+}
+.social {
+  display: flex;
+  width: 135px;
+  height: 40px;
+  background: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.social:hover {
+  border: 1px solid white;
+}
+.social-a:hover{
+  color: rgb(247, 244, 244);
+}
+.facebook:hover{
+  background: rgb(52, 86, 181);
+}
+.twitter:hover{
+  background:rgb(28, 161, 228);
+}
+.linked-in:hover{
+  background: rgb(33, 125, 182);
+}
+.instagram:hover{
+  background:rgb(228, 21, 94)
+}
+.youtube:hover{
+  background: rgb(243, 77, 77);
+}
+.dribble:hover{
+  background:rgb(224, 138, 168)
+}
+.whatsapp:hover{
+  background:rgb(16, 143, 16);
+}
+.telegram:hover{
+  background:rgb(83, 151, 194);
+}
